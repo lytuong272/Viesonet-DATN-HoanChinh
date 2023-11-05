@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ViesonetJava6Application<Viesonet_DATN>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.viesonet.ViesonetJava6Application",
+            "projectName": "Viesonet_DATN",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GenAccessToken<Viesonet_DATN>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.viesonet.config.GenAccessToken",
+            "projectName": "Viesonet_DATN",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
